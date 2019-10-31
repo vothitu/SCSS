@@ -1,0 +1,64 @@
+$color : rebeccapurple;
+$star :yellow;
+@mixin padding_top($bien1) {
+    padding-top: $bien1;
+}
+@mixin font {
+    font-weight: 600;
+    
+}
+body{
+    background: {
+        image: url(./map.jpg);
+        size:100% 100%;
+        repeat:no-repeat;
+        position: center;
+    }
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.frame{
+    border-top: {
+        right-radius: 2rem;
+        left-radius: 2rem;
+    }
+    margin-top: 20rem;
+    background-color: white;
+}
+.sheraton{
+    color: $star;
+    @include padding_top(4rem);
+    .sheraton__title{
+        @include font();
+    }
+    h4,p{
+    color: $color;
+    }
+}
+.fulton-westlake {
+    @include padding_top(4rem);
+    color: $star;
+    .fulton-westlake__title{
+        @include font();
+    }
+    h4,p{
+        color: $color;
+    }
+}
+.jw-marriot {
+    @include padding_top(4rem);
+    margin-bottom: 7rem;
+    color: $star;
+    .jw-marriot__title{
+        @include font();
+    }
+    h4,p{
+        color: $color;
+    }
+}
+img{
+    width: 100%;
+    height: auto;
+    @include padding_top(3rem);
+}

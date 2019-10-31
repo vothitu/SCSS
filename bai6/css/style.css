@@ -1,0 +1,46 @@
+body {
+  background-image: url(./map.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif; }
+
+.frame {
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  margin-top: 20rem;
+  background-color: white; }
+
+.sheraton {
+  color: yellow;
+  padding-top: 4rem; }
+  .sheraton .sheraton__title {
+    font-weight: 600; }
+  .sheraton h4, .sheraton p {
+    color: rebeccapurple; }
+
+.fulton-westlake {
+  padding-top: 4rem;
+  color: yellow; }
+  .fulton-westlake .fulton-westlake__title {
+    font-weight: 600; }
+  .fulton-westlake h4, .fulton-westlake p {
+    color: rebeccapurple; }
+
+.jw-marriot {
+  padding-top: 4rem;
+  margin-bottom: 7rem;
+  color: yellow; }
+  .jw-marriot .jw-marriot__title {
+    font-weight: 600; }
+  .jw-marriot h4, .jw-marriot p {
+    color: rebeccapurple; }
+
+img {
+  width: 100%;
+  height: auto;
+  padding-top: 3rem; }
+
+/*# sourceMappingURL=style.css.map */
