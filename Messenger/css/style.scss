@@ -1,0 +1,150 @@
+$color_active: rgb(182, 85, 197);
+@mixin size($size-form, $size-h) {
+    width: $size-form;
+    height: $size-h;
+}
+@mixin font_size($size){
+    font-size: $size;
+}
+@mixin border {
+    position: absolute;
+    border-radius: 50%;
+    border: 1.5px solid white;
+}
+.header {
+    @include size(100%, 5rem auto);
+  }
+  
+.has-search {
+    .form-control {
+        margin-top: 1.5rem;
+        border-radius: 3rem;
+        padding: 0.7rem 4rem;
+        
+        background-color: rgb(240,240,251);
+    }
+    .form-control-feedback {
+        @include size(4rem, 4rem);
+        position: absolute;
+        display: block;
+        line-height: 3rem;
+        text-align: center;
+        pointer-events: none;
+        @include font_size(1.5rem);
+        color: rgb(206, 204, 204);
+        }
+    }
+  
+.nav-item {
+    a {
+        &:focus {
+            outline: unset;
+        }
+
+        &:hover {
+            border: 1px solid #fff !important;
+        }
+    color: rgb(165, 169, 181) !important;
+    font-weight: 300;
+    padding: {
+        left: 2em;
+        right: 2em;
+    }
+}
+
+    .active {
+        color:$color_active !important;
+        border: none !important;
+        border-bottom: 3px solid $color_active !important;
+        font-weight: 300;
+
+        &:hover {
+        border: none !important;
+        border-bottom: 0.25rem solid $color_active !important;
+        }
+    }
+}
+  
+.nav-tabs {
+    border-bottom: none !important;
+    @include font_size(1rem);
+}
+
+.contacts {
+    list-style: none;
+    padding: 0;
+}
+
+.contacts_body {
+    padding: 0.75rem 0 !important;
+}
+  
+.contacts li {
+    width: 100% !important;
+    padding: 0.3rem 0.6rem;
+    margin-bottom: 1rem !important;
+}
+  
+.active {
+    border-left: 4px solid $color_active;
+}
+  
+.cont_body {
+    background-color: rgb(240, 240, 251);
+    padding: 0.5rem 0 0.5rem 0;
+}
+  
+.user_img {
+    @include size(4.4rem, 4.4rem);
+    border: 1.5px solid #f5f6fa;
+}
+.img_cont {
+    position: relative;
+    @include size(4.4rem, 4.4rem);
+    margin-left: 1.5rem;
+}
+.online_icon {
+    @include border();
+    @include size(1rem, 1rem);
+    background-color: #4cd137;
+    bottom: 0.2em;
+    right: 0.3em;
+    
+}
+
+.offline {
+    background-color: rgb(182, 185, 195) !important;
+}
+
+.onlin_icon {
+    @include size(1rem,1rem);
+    @include border();
+    margin-top: 1.7rem;
+    float: right;
+    background-color: rgb(219, 16, 192) !important;
+}
+
+.user_info {
+    margin: {
+        top: auto;
+        bottom: auto;
+    }
+    padding-left: 1rem;
+    width: 100%;
+}
+
+.chat_date {
+    float: right;
+    @include font_size(1rem);
+}
+
+.user_info {
+    h5 {
+        @include font_size(1rem);
+        color: rgb(89,103,118)
+    }
+    p {
+        color: rgb(148,152,167);
+        @include font_size(1rem);
+    }
+}

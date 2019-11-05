@@ -1,8 +1,10 @@
 $color : rebeccapurple;
 $star :yellow;
+
 @mixin padding_top($bien1) {
     padding-top: $bien1;
 }
+
 @mixin font {
     font-weight: 600;
     
