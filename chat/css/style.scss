@@ -1,0 +1,42 @@
+@mixin size($size-form, $size-h) {
+    width: $size-form;
+    height: $size-h;
+}
+@mixin size_name($font-size,$mg-top,$mg-left,$pd) {
+    font-size: $font-size;
+    margin-top: $mg-top;
+    margin-left: $mg-left;
+    padding: $pd;
+}
+@mixin icon-online{
+    position: absolute; 
+    background-color: #4cd137;
+    border:1.5px solid white;
+    border-radius: 50%;
+}
+@mixin msg {
+    margin-top:auto;
+        margin-bottom: auto;
+        position: relative;
+        font-size: 1em;
+        border-radius: 0.3rem;
+}
+$border: 1.5px solid #f5f6fa;
+@import 'user_chat';
+@import 'chat';
+@import 'footer';
+
+
+.footer{
+    margin-top: 9rem;
+    .input_messager{
+        .input-group-append{
+        background-color: rgb(229,229,229);
+        }
+    }
+    .send_btn{
+        border:0 !important;
+        color: rgb(100,63,196)!important;
+    } 
+}
+  /*# sourceMappingURL=style.css.map */

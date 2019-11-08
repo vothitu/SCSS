@@ -1,0 +1,45 @@
+.chat{
+    .msg_cotainer_send{
+        @include msg();
+        @include size_name(1rem, 1rem, 5.6rem,0.3rem );
+        background-color: rgb(229,229,229);
+        .msg_time_send{
+            position: absolute;
+            color: rgba(32, 30, 30, 0.5);
+            font-size: 0.75rem;
+            bottom:2.5rem;
+        }
+    }
+    .img_cont_msg{
+        @include size(2.5rem,2.5rem);
+        position: relative;
+        .user_img_msg{
+            position: relative;
+            border:1.5px solid #f5f6fa;
+        }
+        .user_img_msg{
+            @include size(3.1rem,3.1rem);
+            border:1.5px solid #f5f6fa;
+        }
+        .online_icon{
+            @include size(1rem,1rem);
+           @include icon-online();
+            bottom: -0.5rem;
+            left: 2.3rem;
+           
+        }
+    }
+    .msg_cotainer{
+        @include msg();
+        @include size_name(1rem,0 ,1.25rem,0.4rem );
+        background-image: linear-gradient(rgb(104,63,197), rgb(186,46,217));
+        color: white;
+        .msg_time{
+            position: absolute;
+            left: 0;
+            bottom:2.5rem;
+            color: black;
+            font-size:0.75rem;
+        }
+    }
+}
