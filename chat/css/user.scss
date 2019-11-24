@@ -3,7 +3,6 @@
     .msg_head{
         position: relative;
         .img_cont{
-            position: relative;
             @include size(3.4rem,3.4rem);
             .user_img{
                 @include size(3.1rem,3.1rem);
