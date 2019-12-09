@@ -1,0 +1,39 @@
+header{
+    background-color: rgb(145,145,145);
+    height: 14rem;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+.form-user{
+    background-color: rgb(236,236,236);
+    padding-top: 1rem;
+    span{
+        font-weight: bold;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+    .icon-plus{
+        line-height: 3rem;
+        font-size: 1.2rem;
+    }
+}
+.title-short{
+    span{
+        font-size: 1.3rem;
+    }
+    p{
+        font-size: 0.7rem;
+    }
+}
+.title-project{
+    @extend .title-short;
+}
+.title-follow{
+    @extend .title-short;
+}
+.list-img{
+    height: 11rem;
+    background-color: rgb(145,145,145);
+
+}

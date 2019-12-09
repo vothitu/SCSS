@@ -1,0 +1,71 @@
+body {
+  background-color: #ececec;
+}
+
+header {
+  padding-top: 2.5rem;
+}
+
+header .icon-left span {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.form {
+  height: 13rem;
+  width: 100%;
+  background-color: white;
+}
+
+.form .icon-user .wrap-user {
+  float: left;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 100%;
+  background-color: #919191;
+  line-height: 3.5rem;
+}
+
+.form .icon-plus {
+  margin-top: 8rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 100%;
+  background-color: black;
+  line-height: 2.5rem;
+  color: white;
+}
+
+.form-follow {
+  background-color: white;
+  height: 8rem;
+  height: auto;
+}
+
+.form-follow .circle, .form-follow .number-follow {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 100%;
+  background-color: #919191;
+}
+
+.form-follow .number-follow {
+  border-radius: 2rem;
+  color: white;
+  line-height: 2.5rem;
+}
+
+.form-img {
+  width: 100%;
+  height: 11rem;
+  background-color: white;
+}
+
+.form-img .img {
+  height: 5.5rem;
+  width: 100%;
+  background-color: #919191;
+  padding-top: 2rem;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

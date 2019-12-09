@@ -1,0 +1,59 @@
+header{
+    padding-top: 2rem;
+    font-weight: bold;
+}
+.form-user{
+    background-color: rgb(236,236,236);
+    padding: 1.7rem;
+    height: auto;
+    margin-top: 2rem;
+    .icon-user{
+        .wrap-user{
+            height: 3rem;
+            width: 3rem;
+            border-radius: 100%;
+            background-color: white;
+            line-height: 3rem;
+        }
+    }
+    .title-name{
+        b{
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        p{
+            font-size: 0.8rem;
+        }
+    } 
+    .icon-plus{
+        line-height: 4rem;
+    }
+}
+.title{
+    font-size: 2rem;
+}
+.img{
+    background-color: rgb(145,145,145);
+    height: 8rem;
+    width: 100%;
+}
+
+
+  .rotate {
+    transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    .inner {
+        font-size: 0.7rem;
+        position: absolute;
+        font-weight: bold;
+        margin-left: -4rem;
+
+      }
+      .outer {
+        position: relative;
+        display: inline-block;
+      }
+  }

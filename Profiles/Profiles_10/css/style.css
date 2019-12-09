@@ -1,0 +1,38 @@
+header {
+  background-color: #919191;
+  height: 14rem;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.form-user {
+  background-color: #ececec;
+  padding-top: 1rem;
+}
+
+.form-user span {
+  font-weight: bold;
+}
+
+.form-user p {
+  font-size: 0.8rem;
+}
+
+.form-user .icon-plus {
+  line-height: 3rem;
+  font-size: 1.2rem;
+}
+
+.title-short span, .title-project span, .title-follow span {
+  font-size: 1.3rem;
+}
+
+.title-short p, .title-project p, .title-follow p {
+  font-size: 0.7rem;
+}
+
+.list-img {
+  height: 11rem;
+  background-color: #919191;
+}
+/*# sourceMappingURL=style.css.map */
