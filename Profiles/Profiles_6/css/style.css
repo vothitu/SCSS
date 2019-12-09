@@ -6,66 +6,56 @@ header {
   padding-top: 2.5rem;
 }
 
-header .icon-left span {
-  font-size: 0.9rem;
-  font-weight: 700;
+header .icon-left {
+  font-size: 1.2rem;
 }
 
-.form {
-  height: 13rem;
-  width: 100%;
-  background-color: white;
+.user {
+  height: 16rem;
 }
 
-.form .icon-user .wrap-user {
-  float: left;
-  height: 3.5rem;
-  width: 3.5rem;
+.user .user-icon .user-icon-wrap {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 1.3rem;
   border-radius: 100%;
   background-color: #919191;
-  line-height: 3.5rem;
 }
 
-.form .icon-plus {
-  margin-top: 8rem;
-  height: 2.5rem;
-  width: 2.5rem;
+.user .icon-plus {
+  height: 3.5rem;
+  width: 3.5rem;
+  line-height: 3.5rem;
   border-radius: 100%;
+  margin-top: 10rem;
   background-color: black;
-  line-height: 2.5rem;
-  color: white;
 }
 
 .form-follow {
-  background-color: white;
-  height: 8rem;
   height: auto;
 }
 
-.form-follow .circle, .form-follow .number-follow {
-  height: 2.5rem;
-  width: 2.5rem;
+.form-follow .circle {
+  height: 3.5rem;
+  width: 3.5rem;
   border-radius: 100%;
   background-color: #919191;
 }
 
 .form-follow .number-follow {
   border-radius: 2rem;
-  color: white;
-  line-height: 2.5rem;
-}
-
-.form-img {
-  width: 100%;
-  height: 11rem;
-  background-color: white;
-}
-
-.form-img .img {
-  height: 5.5rem;
-  width: 100%;
+  line-height: 3.5rem;
   background-color: #919191;
-  padding-top: 2rem;
-  color: white;
+}
+
+.shots {
+  height: auto;
+  line-height: 7rem;
+}
+
+.shots .img-shots {
+  height: 7rem;
+  background-color: #919191;
 }
 /*# sourceMappingURL=style.css.map */

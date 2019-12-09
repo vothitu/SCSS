@@ -1,43 +1,46 @@
-header{
-    padding-top: 2rem;
-    font-weight: bold;
+$background:rgb(145,145,145);
+header {
+    .icon-left {
+        font-size: 1.3rem;
+    }
 }
-.form-user{
-    background-color: rgb(236,236,236);
-    padding: 1.7rem;
+.user {
+    background-color: rgb(232,232,232);
+    padding: 2rem;
     height: auto;
     margin-top: 2rem;
-    .icon-user{
-        .wrap-user{
-            height: 3rem;
-            width: 3rem;
-            border-radius: 100%;
-            background-color: white;
-            line-height: 3rem;
+    .user-icon {
+        .user-wrap {
+            @include circle(3.5rem, 3.5rem, 3.5rem,1.2rem , 100%)
         }
     }
-    .title-name{
-        b{
-            font-weight: bold;
+    .title-name {
+        b {
             font-size: 1.1rem;
         }
-        p{
+        p {
             font-size: 0.8rem;
         }
     } 
-    .icon-plus{
+
+    .icon-plus {
         line-height: 4rem;
     }
 }
-.title{
+
+.title {
     font-size: 2rem;
 }
-.img{
-    background-color: rgb(145,145,145);
-    height: 8rem;
-    width: 100%;
+
+.introduce {
+    font-size: 1.2rem;
 }
 
+.img {
+    height: 10rem;
+    width: 100%;
+    background-color: rgb(145,145,145);
+}
 
   .rotate {
     transform: rotate(270deg);
@@ -45,15 +48,16 @@ header{
     -webkit-transform: rotate(270deg);
     -o-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
+
     .inner {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
+        margin-left: -4rem;
         position: absolute;
         font-weight: bold;
-        margin-left: -4rem;
+    }
 
-      }
-      .outer {
-        position: relative;
-        display: inline-block;
-      }
-  }
+    .outer {
+    position: relative;
+    display: inline-block;
+    }
+}

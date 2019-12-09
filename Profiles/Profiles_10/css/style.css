@@ -1,17 +1,11 @@
 header {
-  background-color: #919191;
-  height: 14rem;
-  padding-top: 2rem;
+  height: 17rem;
   font-size: 1.5rem;
+  background-color: #919191;
 }
 
 .form-user {
   background-color: #ececec;
-  padding-top: 1rem;
-}
-
-.form-user span {
-  font-weight: bold;
 }
 
 .form-user p {
@@ -19,20 +13,25 @@ header {
 }
 
 .form-user .icon-plus {
-  line-height: 3rem;
+  line-height: 4rem;
   font-size: 1.2rem;
 }
 
-.title-short span, .title-project span, .title-follow span {
-  font-size: 1.3rem;
+.detail span {
+  font-size: 1.8rem;
 }
 
-.title-short p, .title-project p, .title-follow p {
-  font-size: 0.7rem;
+.detail p {
+  font-size: 0.9rem;
+}
+
+.introduct {
+  font-size: 1.2rem;
 }
 
 .list-img {
-  height: 11rem;
+  margin: 0.05rem;
+  height: 13rem;
   background-color: #919191;
 }
 /*# sourceMappingURL=style.css.map */

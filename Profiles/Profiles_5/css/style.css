@@ -1,63 +1,54 @@
+.user .user-icon .user-icon-wrap {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 1.3rem;
+  border-radius: 100%;
+}
+
 header .icon-left {
   font-size: 1.2rem;
 }
 
 .user {
+  height: 16rem;
   margin: 1rem;
-  height: 13rem;
   padding: 1rem;
-  padding-top: 7.5rem;
-  background-color: #ececec;
+  padding-top: 10em;
+  background-color: #e8e8e8;
 }
 
 .user .user-icon .user-icon-wrap {
-  float: left;
-  height: 4.5rem;
-  width: 4.5rem;
-  line-height: 4.5rem;
-  border-radius: 100%;
-  font-size: 1.3rem;
   background-color: #919191;
 }
 
-.form-project, .form-main {
-  height: 11rem;
-  background-color: #ececec;
+.project, .shots {
+  height: auto;
   margin: 1rem;
   padding: 1rem 2rem 0rem 1rem;
+  background-color: #e8e8e8;
 }
 
-.form-project .name-title h6, .form-main .name-title h6 {
-  font-weight: 700;
+.project .project-number, .shots .project-number {
+  font-size: 1.2rem;
 }
 
-.form-project .img-number p, .form-main .img-number p {
-  float: right;
-}
-
-.form-project .img-project, .form-main .img-project {
-  height: 5rem;
-  width: 100%;
+.project .project-img, .shots .project-img {
+  height: 6.5rem;
   background-color: #919191;
 }
 
-.form-main {
-  height: 12rem;
+.shots {
   padding: 1rem 1rem 0rem 1rem;
 }
 
-.form-main .name-title h6 {
-  font-weight: 700;
+.shots .shots-number {
+  font-size: 1.2rem;
 }
 
-.form-main .shots-number p {
-  float: right;
-}
-
-.form-main .form-img {
-  height: 5.5rem;
-  width: 100%;
-  background-color: #919191;
+.shots .shots-img {
+  height: 7rem;
   padding-top: 2rem;
+  background-color: #919191;
 }
 /*# sourceMappingURL=style.css.map */

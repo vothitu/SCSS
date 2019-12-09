@@ -1,22 +1,16 @@
-header {
-  font-weight: bold;
+header .icon-left {
+  font-size: 1.3rem;
 }
 
-.form-user {
-  margin-top: 1rem;
+.user {
   background-color: #ececec;
   padding-top: 1.5rem;
 }
 
-.form-user p {
+.user .btn {
   font-size: 0.8rem;
-}
-
-.form-user .btn {
-  float: right;
-  font-size: 0.8rem;
-  padding: 0.5rem;
-  width: 6rem;
+  padding: 1rem;
+  width: 8rem;
 }
 
 .rotate {
@@ -29,9 +23,8 @@ header {
 
 .rotate .inner {
   font-size: 0.7rem;
-  position: absolute;
-  font-weight: bold;
   margin-left: -1rem;
+  position: absolute;
 }
 
 .rotate .outer {
@@ -39,17 +32,39 @@ header {
   display: inline-block;
 }
 
+.introduce {
+  font-size: 1.2rem;
+}
+
+.follow span {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.follow p {
+  font-size: 0.9rem;
+}
+
 .img {
   background-color: #919191;
-  height: 5.5rem;
+  height: 7rem;
 }
 
 .img .number-follow {
-  padding-top: 1rem;
+  padding-top: 1.5rem;
+  font-weight: 500;
+}
+
+.img .number-follow span {
+  font-size: 1.8rem;
+}
+
+.img .number-follow p {
+  font-size: 0.8rem;
 }
 
 .img-post {
-  height: 12rem;
+  height: 15rem;
   background-color: #919191;
 }
 

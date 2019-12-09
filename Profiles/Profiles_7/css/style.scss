@@ -1,78 +1,80 @@
-header{
-    .icon-left{
-        span{
-            font-size: 0.9rem;
-            font-weight: 700;
-        }
+@mixin circle($height,$width,$line,$size,$border) {
+    height: $height;
+    width: $width;
+    line-height: $line;
+    font-size: $size;
+    border-radius: $border;
+}
+
+header {
+    .icon-left {
+        font-size: 1.3rem;
     }
 }
 
-.icon-user{
+.user{
     
-    .wrap-user{
-        height: 3.5rem;
-        width: 3.5rem;
-        border-radius: 100%;
+    .user-wrap {
+        @include circle(4.5rem,4.5rem ,4.5rem ,1.3rem ,100% );
         background-color: rgb(145,145,145);
-        line-height: 3.5rem;
-    }
-    .title-name{
-        span{
-            font-weight: bold;
-            font-size: 1.3rem;
-        }
-        p{
-            font-size: 0.8rem;
-        }
-    } 
-}
-.button-follow{
-    .btn{
-        font-size: 0.7rem;
-        padding: 0.7rem;
-        width: 6rem;
     }
 }
-.button-message{
-    .btn{
-        font-size: 0.7rem;
-        padding: 0.7rem;
-        width: 6rem;
-        color: black;
-        font-weight: bold;;
 
+.introduction {
+    font-size: 1.2rem;
+}
+
+.button-follow {
+
+    .btn {
+        width: 8rem;
+        font-size: 0.8rem;
+        padding: 1rem;
     }
 }
-.form-status{
-    background-color: rgb(236,236,236);
-    height: 13rem;
+
+.button-message {
+    @extend .button-follow;
+}
+
+.detail {
     height: auto;
     padding: 1.5rem;
     padding-top: 2rem;
-    .user{
-        .wrap-user{
-            height: 2rem;
-            width: 2rem;
-            border-radius: 100%;
-            background-color: black;
-            color: white;
-            font-size: 0.6rem;
-            line-height: 2rem;
+    background-color: rgb(236,236,236);
+
+    .detail-user {
+
+        .wrap-user { 
+            @include circle(2rem,2rem ,2rem ,0.6rem ,100% );
             padding-left: 0.7rem;
+            background-color: black;
         }
-        span{
-            font-weight: 700;
-        }
-    }
-    .status-title{
-        b{
+
+        .detail-user-name{
             font-size: 1.3rem;
         }
     }
+
+    .detail-time {
+            font-size: 1.2rem;
+    }
+
+    .detail-title {
+
+        b {
+            font-size: 1.7rem;
+        }
+
+        p{
+            @extend .detail-time;
+        }
+    }
 }
-.form-footer{
+
+.footer {
     height: 3rem;
+    margin-top: -1.5rem;
     background-color: rgb(145,145,145);
-    margin-top: -1rem;
 }
 
